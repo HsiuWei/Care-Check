@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="9a7-Nm-Orf">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Settings-->
+        <scene sceneID="Pcq-1T-oI6">
+            <objects>
+                <viewController id="Mv9-mw-fte" customClass="PTHomeViewController" customModule="Med_Asst_1_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="D7K-VY-KmR"/>
+                        <viewControllerLayoutGuide type="bottom" id="amR-3L-uG0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="S90-Rh-glX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView hidden="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Home Page Background" translatesAutoresizingMaskIntoConstraints="NO" id="cgh-m6-cTz">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hh6-rx-M4B">
+                                <rect key="frame" x="36" y="498" width="248" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="xRI-lT-ZfA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gph-wo-xBh">
+                                <rect key="frame" x="30" y="104" width="260" height="70"/>
+                                <color key="backgroundColor" red="0.59775525330000001" green="0.90470713380000001" blue="0.79857069250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="laO-bi-wR1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Edit Waking Hours">
+                                    <color key="titleColor" red="0.1196744069" green="0.18094524740000001" blue="0.1605513096" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="VTu-QJ-eL0" kind="show" identifier="toChangeWakingView" id="XdB-0t-cd0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PQZ-vr-lUR">
+                                <rect key="frame" x="30" y="214" width="260" height="70"/>
+                                <color key="backgroundColor" red="0.59775525331497192" green="0.90470713376998901" blue="0.79857069253921509" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="BHX-FI-7t0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Text My Pair Code">
+                                    <color key="titleColor" red="0.1196744069" green="0.18094524740000001" blue="0.1605513096" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendCodeButtonTapped:" destination="Mv9-mw-fte" eventType="touchUpInside" id="IkP-dY-kPn"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Pair Code" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ejd-26-BNX">
+                                <rect key="frame" x="110" y="477" width="100" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="8qo-8k-aSV"/>
+                                    <constraint firstAttribute="width" constant="100" id="uUW-HC-5yN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="hh6-rx-M4B" firstAttribute="leading" secondItem="S90-Rh-glX" secondAttribute="leadingMargin" constant="20" id="99j-t0-c5t"/>
+                            <constraint firstItem="gph-wo-xBh" firstAttribute="top" secondItem="D7K-VY-KmR" secondAttribute="bottom" constant="40" id="9Rx-Op-Agn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hh6-rx-M4B" secondAttribute="trailing" constant="20" id="DRi-iS-bi5"/>
+                            <constraint firstItem="cgh-m6-cTz" firstAttribute="top" secondItem="S90-Rh-glX" secondAttribute="top" id="Do4-SY-23N"/>
+                            <constraint firstAttribute="trailing" secondItem="PQZ-vr-lUR" secondAttribute="trailing" constant="30" id="I25-v0-Az5"/>
+                            <constraint firstAttribute="trailing" secondItem="cgh-m6-cTz" secondAttribute="trailing" id="IsO-FI-wFS"/>
+                            <constraint firstItem="amR-3L-uG0" firstAttribute="top" secondItem="hh6-rx-M4B" secondAttribute="bottom" constant="30" id="KTq-hO-6UD"/>
+                            <constraint firstItem="hh6-rx-M4B" firstAttribute="top" secondItem="ejd-26-BNX" secondAttribute="bottom" id="ZdN-B5-aih"/>
+                            <constraint firstItem="gph-wo-xBh" firstAttribute="leading" secondItem="S90-Rh-glX" secondAttribute="leading" constant="30" id="c11-TE-Ed0"/>
+                            <constraint firstItem="ejd-26-BNX" firstAttribute="centerX" secondItem="S90-Rh-glX" secondAttribute="centerX" id="dgJ-bB-Q8s"/>
+                            <constraint firstAttribute="trailing" secondItem="gph-wo-xBh" secondAttribute="trailing" constant="30" id="g6E-x2-sav"/>
+                            <constraint firstItem="PQZ-vr-lUR" firstAttribute="leading" secondItem="S90-Rh-glX" secondAttribute="leading" constant="30" id="irw-cL-ErC"/>
+                            <constraint firstAttribute="bottom" secondItem="cgh-m6-cTz" secondAttribute="bottom" id="jya-ec-ASV"/>
+                            <constraint firstItem="PQZ-vr-lUR" firstAttribute="top" secondItem="gph-wo-xBh" secondAttribute="bottom" constant="40" id="pgg-wh-Vnn"/>
+                            <constraint firstItem="cgh-m6-cTz" firstAttribute="leading" secondItem="S90-Rh-glX" secondAttribute="leading" id="tQ4-b8-G8a"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Settings" id="913-a2-7kk">
+                        <barButtonItem key="leftBarButtonItem" title="Done" id="ex9-dE-VYy">
+                            <connections>
+                                <segue destination="OVF-rF-Qlp" kind="unwind" unwindAction="unwindFromConfirmationVCToMedListVC:" id="oPj-S1-tAl"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="HomeBackgroundView" destination="cgh-m6-cTz" id="bN5-fo-VCr"/>
+                        <outlet property="changeWakingButtonView" destination="gph-wo-xBh" id="yNP-KA-pQy"/>
+                        <outlet property="sendButtonView" destination="PQZ-vr-lUR" id="Cq5-hN-Kcn"/>
+                        <outlet property="uuidDisplayLabel" destination="hh6-rx-M4B" id="5vB-dt-PIL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sc8-GT-2c4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="OVF-rF-Qlp" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1636" y="2460.7196401799101"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="evG-B6-azD">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9a7-Nm-Orf" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cUM-6o-wzQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Mv9-mw-fte" kind="relationship" relationship="rootViewController" id="IZJ-On-KXK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nyq-B4-45B" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="884" y="2462"/>
+        </scene>
+        <!--Waking Hours-->
+        <scene sceneID="MIT-76-CYo">
+            <objects>
+                <viewController id="VTu-QJ-eL0" customClass="SetWakingViewController" customModule="Med_Asst_1_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nZD-wK-aLH"/>
+                        <viewControllerLayoutGuide type="bottom" id="8YG-nY-Kly"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="abt-D5-2r4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Home Page Background" translatesAutoresizingMaskIntoConstraints="NO" id="Qf2-kx-6Ip">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current Waking Hours " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C7C-ar-CD5">
+                                <rect key="frame" x="46" y="104" width="228" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="g0L-r0-XLO">
+                                <rect key="frame" x="73.5" y="139.5" width="173" height="20.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="07" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ber-s9-vRi">
+                                        <rect key="frame" x="0.0" y="0.0" width="24" height="20.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="24" id="LeG-jU-y8T"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=":00 AM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7aU-9M-O7g">
+                                        <rect key="frame" x="24" y="0.0" width="56" height="20.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="56" id="CaI-cK-7D2"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="~" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RCs-tD-Skq">
+                                        <rect key="frame" x="80" y="0.0" width="13" height="20.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="13" id="LSz-cZ-80d"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UGH-L4-60J">
+                                        <rect key="frame" x="93" y="0.0" width="24" height="20.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="24" id="9zf-30-Wh2"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=":00 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eMf-Pw-T34">
+                                        <rect key="frame" x="117" y="0.0" width="56" height="20.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="56" id="DSp-uh-Dga"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="BNd-Il-vrp">
+                                <rect key="frame" x="46" y="300.5" width="228" height="80.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I go to bed at" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hK5-YV-V6Y">
+                                        <rect key="frame" x="0.0" y="30" width="101" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lIx-5o-5Dk">
+                                        <rect key="frame" x="132" y="0.0" width="40" height="80.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="CE9-7E-KGC"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="dataSource" destination="VTu-QJ-eL0" id="zVV-CZ-s28"/>
+                                            <outlet property="delegate" destination="VTu-QJ-eL0" id="BDd-k0-tI2"/>
+                                        </connections>
+                                    </pickerView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Kd-3R-AUD">
+                                        <rect key="frame" x="203" y="30" width="25" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="0CR-ce-cvs"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="yqE-Xa-oX6">
+                                <rect key="frame" x="46" y="210" width="228" height="80.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I wake up at  " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BGh-rd-3Ci">
+                                        <rect key="frame" x="0.0" y="30" width="100" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7kj-wb-YLc">
+                                        <rect key="frame" x="131" y="0.0" width="40" height="80.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="65R-93-6dc"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="dataSource" destination="VTu-QJ-eL0" id="s7v-uO-pG2"/>
+                                            <outlet property="delegate" destination="VTu-QJ-eL0" id="7xj-QS-HoV"/>
+                                        </connections>
+                                    </pickerView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Era-vk-Zie">
+                                        <rect key="frame" x="202" y="30" width="26" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="ZJQ-cK-kMt"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="guj-TX-LIA">
+                                <rect key="frame" x="46" y="468" width="228" height="70"/>
+                                <color key="backgroundColor" red="0.59775525330000001" green="0.90470713380000001" blue="0.79857069250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="a34-kw-Cql"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Save">
+                                    <color key="titleColor" red="0.1196744069" green="0.18094524740000001" blue="0.1605513096" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeTimeButtonTappe:" destination="VTu-QJ-eL0" eventType="touchUpInside" id="m7G-Ky-byt"/>
+                                    <segue destination="28h-Qe-gy5" kind="unwind" identifier="unwindFromWakingToHome" unwindAction="unwindFromChangeWakingTime:" id="LY4-BN-qqT"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Only newly-created medicines will follow the changed waking hours. Recreate old medicines if needed." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W2t-hN-ihz">
+                                <rect key="frame" x="46" y="409" width="228" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="Yvb-Nd-ptn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="W2t-hN-ihz" secondAttribute="trailing" constant="30" id="58f-kp-MkR"/>
+                            <constraint firstItem="g0L-r0-XLO" firstAttribute="centerX" secondItem="abt-D5-2r4" secondAttribute="centerX" id="6E5-tj-GIG"/>
+                            <constraint firstItem="BNd-Il-vrp" firstAttribute="leading" secondItem="abt-D5-2r4" secondAttribute="leadingMargin" constant="30" id="8cD-eO-ya4"/>
+                            <constraint firstItem="guj-TX-LIA" firstAttribute="top" secondItem="W2t-hN-ihz" secondAttribute="bottom" constant="5" id="9Na-93-wSe"/>
+                            <constraint firstItem="C7C-ar-CD5" firstAttribute="leading" secondItem="abt-D5-2r4" secondAttribute="leadingMargin" constant="30" id="CjU-aH-w6l"/>
+                            <constraint firstItem="Qf2-kx-6Ip" firstAttribute="top" secondItem="abt-D5-2r4" secondAttribute="top" id="HfL-IU-ak2"/>
+                            <constraint firstAttribute="bottom" secondItem="Qf2-kx-6Ip" secondAttribute="bottom" id="IcL-H6-Zpd"/>
+                            <constraint firstItem="yqE-Xa-oX6" firstAttribute="leading" secondItem="abt-D5-2r4" secondAttribute="leadingMargin" constant="30" id="OLL-hF-Df7"/>
+                            <constraint firstItem="8YG-nY-Kly" firstAttribute="top" secondItem="guj-TX-LIA" secondAttribute="bottom" constant="30" id="Scq-T3-d5U"/>
+                            <constraint firstItem="BNd-Il-vrp" firstAttribute="top" secondItem="yqE-Xa-oX6" secondAttribute="bottom" constant="10" id="U4o-nq-Idg"/>
+                            <constraint firstItem="yqE-Xa-oX6" firstAttribute="top" secondItem="g0L-r0-XLO" secondAttribute="bottom" constant="50" id="YPX-RJ-GQL"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yqE-Xa-oX6" secondAttribute="trailing" constant="30" id="ZQC-JF-kTJ"/>
+                            <constraint firstItem="C7C-ar-CD5" firstAttribute="top" secondItem="nZD-wK-aLH" secondAttribute="bottom" constant="40" id="ib1-Lk-gCD"/>
+                            <constraint firstItem="W2t-hN-ihz" firstAttribute="leading" secondItem="abt-D5-2r4" secondAttribute="leadingMargin" constant="30" id="kqS-tK-XfO"/>
+                            <constraint firstItem="g0L-r0-XLO" firstAttribute="top" secondItem="C7C-ar-CD5" secondAttribute="bottom" constant="15" id="q1c-DU-Yip"/>
+                            <constraint firstItem="Qf2-kx-6Ip" firstAttribute="leading" secondItem="abt-D5-2r4" secondAttribute="leading" id="qYd-GN-xvS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="C7C-ar-CD5" secondAttribute="trailing" constant="30" id="rEe-CY-EGW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="BNd-Il-vrp" secondAttribute="trailing" constant="30" id="thl-P2-U57"/>
+                            <constraint firstItem="guj-TX-LIA" firstAttribute="leading" secondItem="abt-D5-2r4" secondAttribute="leadingMargin" constant="30" id="uDH-up-n4r"/>
+                            <constraint firstAttribute="trailing" secondItem="Qf2-kx-6Ip" secondAttribute="trailing" id="xZI-hQ-kf4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="guj-TX-LIA" secondAttribute="trailing" constant="30" id="y39-HL-130"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Waking Hours" id="A9u-hN-ms3">
+                        <barButtonItem key="leftBarButtonItem" title="&lt; Settings" id="3yA-4d-l4J">
+                            <connections>
+                                <segue destination="28h-Qe-gy5" kind="unwind" unwindAction="unwindToSettingHome:" id="tbV-lX-Acy"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="HomeBackgroundView" destination="Qf2-kx-6Ip" id="Soo-A4-DMH"/>
+                        <outlet property="changeSettingButtonView" destination="guj-TX-LIA" id="bYB-Pp-nyF"/>
+                        <outlet property="sleepPicker" destination="lIx-5o-5Dk" id="YSo-8z-1AN"/>
+                        <outlet property="sleepTimeLabel" destination="UGH-L4-60J" id="6gR-p9-OmD"/>
+                        <outlet property="sleepingPickerPmAmLabel" destination="7Kd-3R-AUD" id="L2F-q7-E1m"/>
+                        <outlet property="sleepingPmAmLabel" destination="eMf-Pw-T34" id="dbj-6s-MNj"/>
+                        <outlet property="wakePicker" destination="7kj-wb-YLc" id="ikM-0e-JPt"/>
+                        <outlet property="wakeTimeLabel" destination="ber-s9-vRi" id="Waj-cB-ZuB"/>
+                        <outlet property="wakingPickerPmAmLabel" destination="Era-vk-Zie" id="qt0-er-Jyv"/>
+                        <outlet property="wakingPmAmLabel" destination="7aU-9M-O7g" id="Ooa-gX-TYI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rgG-eS-Ryt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="28h-Qe-gy5" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="2394.375" y="2461.2676056338028"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Home Page Background" width="3000" height="2000"/>
+    </resources>
+</document>
