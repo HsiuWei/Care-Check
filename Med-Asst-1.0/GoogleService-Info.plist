@@ -7,25 +7,25 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>325876109920-e2bfh2mrn8q9dhogk3gj562ptv1qr2ie.apps.googleusercontent.com</string>
+	<string>951140630287-kf8glocmgnb21144va7hp6q1tus51fk5.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.325876109920-e2bfh2mrn8q9dhogk3gj562ptv1qr2ie</string>
+	<string>com.googleusercontent.apps.951140630287-kf8glocmgnb21144va7hp6q1tus51fk5</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDf8gCza7RttWWbOvWFe365B4tL-EHW1A0</string>
+	<string>AIzaSyDh0nx4CDBeDgp_yMZxvPO2OHsUADDQUEg</string>
 	<key>GCM_SENDER_ID</key>
-	<string>325876109920</string>
+	<string>951140630287</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>--.Med-Asst-1-0</string>
+	<string>com.hsiuwei.famcare</string>
 	<key>PROJECT_ID</key>
-	<string>med-asst-1-0</string>
+	<string>famcare-3bdfd</string>
 	<key>STORAGE_BUCKET</key>
-	<string>med-asst-1-0.appspot.com</string>
+	<string>famcare-3bdfd.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true/>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<true/>
+	<false/>
 	<key>IS_APPINVITE_ENABLED</key>
 	<false/>
 	<key>IS_GCM_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:325876109920:ios:50777d9eee2b064d</string>
+	<string>1:951140630287:ios:5b520bae0a65c87c</string>
 	<key>DATABASE_URL</key>
-	<string>https://med-asst-1-0.firebaseio.com/</string>
+	<string>https://famcare-3bdfd.firebaseio.com</string>
 </dict>
 </plist>

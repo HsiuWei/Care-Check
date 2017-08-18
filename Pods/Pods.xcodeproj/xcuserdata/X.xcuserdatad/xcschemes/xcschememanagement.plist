@@ -19,7 +19,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Med-Asst-1.0.xcscheme</key>
+		<key>Pods-Care Tracker.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -32,17 +32,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>0B41DA8944A6523F8E67A451867A9601</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>107A9565F9DF88517DFD3E28C05B2B96</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>3380590F973AFAFA30255D504B7DEDAC</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>47D27F13A02A3C8F2DBAB274EAFFA865</key>
 		<dict>
 			<key>primary</key>
 			<true/>
