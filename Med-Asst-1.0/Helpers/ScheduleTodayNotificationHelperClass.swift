@@ -102,9 +102,9 @@ class ScheduleTodayNotificationHelperClass {
     
         
         let medReminder = UNMutableNotificationContent()
-        medReminder.title = "Time to take the medicine: " + medicineObj.name!
+        medReminder.title = "Time to take: " + medicineObj.name!
         medReminder.subtitle = "Take " + String(describing: medicineObj.amount!) + " pill(s)"
-        medReminder.body = "Swipe to see the midicine info in app"
+        medReminder.body = "Swipe left and press \"Taken!\" after finish taking it"
         medReminder.badge = 1
         
         
