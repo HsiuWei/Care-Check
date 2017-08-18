@@ -13,7 +13,7 @@
         <!--Enter Medicine-->
         <scene sceneID="H6r-EG-1TS">
             <objects>
-                <viewController id="9MX-O5-6TS" customClass="AddMedViewController" customModule="Med_Asst_1_0" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9MX-O5-6TS" customClass="AddMedViewController" customModule="Care_Tracker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="F1S-pz-geH"/>
                         <viewControllerLayoutGuide type="bottom" id="JDF-lI-8mk"/>
@@ -103,7 +103,7 @@
         <!--Prescription Period-->
         <scene sceneID="jOm-Vj-JaC">
             <objects>
-                <viewController id="ovj-Os-f7B" customClass="PeriodMedViewController" customModule="Med_Asst_1_0" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ovj-Os-f7B" customClass="PeriodMedViewController" customModule="Care_Tracker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="iZh-Ab-RLo"/>
                         <viewControllerLayoutGuide type="bottom" id="fX1-qT-hEI"/>
@@ -129,7 +129,7 @@
                                     <action selector="periodNextButtonTapped:" destination="ovj-Os-f7B" eventType="touchUpInside" id="ilF-78-kqV"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter the prescription period for this medicine. The period start and end dates cannot be more than two months from today." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eDU-0v-m9M">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter the prescription period for this medicine. The period start and end dates cannot be more than 1 year from today." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eDU-0v-m9M">
                                 <rect key="frame" x="46" y="344" width="283" height="96"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="96" id="TCl-Hg-sQi"/>
@@ -222,7 +222,7 @@
         <!--Quantity & Frequency-->
         <scene sceneID="krJ-hz-dCm">
             <objects>
-                <viewController id="rjg-Pi-BEE" customClass="AmountMedViewController" customModule="Med_Asst_1_0" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="rjg-Pi-BEE" customClass="AmountMedViewController" customModule="Care_Tracker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hcX-tt-SVp"/>
                         <viewControllerLayoutGuide type="bottom" id="CDz-Ty-N44"/>
@@ -378,7 +378,7 @@
         <!--Confirmation-->
         <scene sceneID="e4N-cd-k2x">
             <objects>
-                <viewController id="f80-Pb-DCe" customClass="ConfirmationViewController" customModule="Med_Asst_1_0" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="f80-Pb-DCe" customClass="ConfirmationViewController" customModule="Care_Tracker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ixg-8j-lrl"/>
                         <viewControllerLayoutGuide type="bottom" id="fQ1-3E-51q"/>

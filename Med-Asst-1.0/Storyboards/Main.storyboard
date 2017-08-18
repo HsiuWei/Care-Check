@@ -13,7 +13,7 @@
         <!--Home View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="Med_Asst_1_0" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="Care_Tracker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -115,7 +115,7 @@
         <!--CareTakerPairViewController-->
         <scene sceneID="OrA-ri-KXq">
             <objects>
-                <viewController id="JPT-GU-cGs" customClass="CareTakerPairViewController" customModule="Med_Asst_1_0" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="JPT-GU-cGs" customClass="CareTakerPairViewController" customModule="Care_Tracker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YAF-1H-25Z"/>
                         <viewControllerLayoutGuide type="bottom" id="Nu5-g3-T8u"/>
@@ -201,7 +201,7 @@
         <!--RelationViewController-->
         <scene sceneID="U6K-m9-6CC">
             <objects>
-                <viewController id="3RO-H0-57h" customClass="RelationViewController" customModule="Med_Asst_1_0" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="3RO-H0-57h" customClass="RelationViewController" customModule="Care_Tracker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cjS-yA-u2T"/>
                         <viewControllerLayoutGuide type="bottom" id="htN-5t-cmW"/>
@@ -238,7 +238,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hfP-fs-rFY">
-                                <rect key="frame" x="103" y="156" width="115" height="30"/>
+                                <rect key="frame" x="102.5" y="156" width="115" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="115" id="8ac-7o-je7"/>
@@ -278,7 +278,7 @@
         <!--Home-->
         <scene sceneID="BYe-Ul-qqs">
             <objects>
-                <viewController id="PV4-nj-wbp" customClass="CTHomeVIewController" customModule="Med_Asst_1_0" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="PV4-nj-wbp" customClass="CTHomeVIewController" customModule="Care_Tracker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="aEX-Oi-NPx"/>
                         <viewControllerLayoutGuide type="bottom" id="KFm-2a-QRF"/>
@@ -385,7 +385,7 @@
         <!--Add Medicine User-->
         <scene sceneID="Ajh-2I-uWc">
             <objects>
-                <viewController id="NPw-tX-s5s" customClass="AddPairViewController" customModule="Med_Asst_1_0" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="NPw-tX-s5s" customClass="AddPairViewController" customModule="Care_Tracker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3Yb-us-SYj"/>
                         <viewControllerLayoutGuide type="bottom" id="Vsf-sn-kl1"/>
@@ -404,7 +404,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Connect to a Medicine User" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B9I-dk-uz1">
-                                <rect key="frame" x="35.5" y="94" width="250" height="56"/>
+                                <rect key="frame" x="35" y="94" width="250" height="56"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="56" id="Ioc-TZ-Coj"/>
                                     <constraint firstAttribute="width" constant="250" id="NhT-y2-zeK"/>
@@ -479,7 +479,7 @@
         <!--Add Medicine User-->
         <scene sceneID="w25-03-mgH">
             <objects>
-                <viewController id="Rzo-Zp-HVB" customClass="AddNameViewController" customModule="Med_Asst_1_0" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Rzo-Zp-HVB" customClass="AddNameViewController" customModule="Care_Tracker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QEe-ga-olh"/>
                         <viewControllerLayoutGuide type="bottom" id="PnR-Mm-MOB"/>
@@ -515,7 +515,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter the Medicine User's Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="voi-d5-5NE">
-                                <rect key="frame" x="35.5" y="94" width="250" height="56"/>
+                                <rect key="frame" x="35" y="94" width="250" height="56"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="bMc-7M-4fp"/>
                                     <constraint firstAttribute="width" constant="250" id="ybO-ZQ-hRq"/>
@@ -562,13 +562,13 @@
         <!--Medicine Users-->
         <scene sceneID="AVh-Qg-RyJ">
             <objects>
-                <tableViewController id="SZD-p8-R3R" customClass="SwitchPatientListViewController" customModule="Med_Asst_1_0" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="SZD-p8-R3R" customClass="SwitchPatientListViewController" customModule="Care_Tracker" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="120" sectionHeaderHeight="28" sectionFooterHeight="28" id="MR1-qP-RMu">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.88877445459365845" green="0.93734985589981079" blue="0.94583636522293091" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SwitchPatientCellID" rowHeight="120" id="ccB-xI-I2Q" customClass="SwitchPatientListViewCell" customModule="Med_Asst_1_0" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SwitchPatientCellID" rowHeight="120" id="ccB-xI-I2Q" customClass="SwitchPatientListViewCell" customModule="Care_Tracker" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="320" height="120"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ccB-xI-I2Q" id="x5G-8Z-AUb">
@@ -650,13 +650,13 @@
         <!--CTMedListViewController-->
         <scene sceneID="SXZ-1B-M36">
             <objects>
-                <tableViewController id="lVv-uD-e9D" customClass="CTMedListViewController" customModule="Med_Asst_1_0" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="lVv-uD-e9D" customClass="CTMedListViewController" customModule="Care_Tracker" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="120" sectionHeaderHeight="28" sectionFooterHeight="28" id="pQI-MW-4Wa">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.88877445459365845" green="0.93734985589981079" blue="0.94583636522293091" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ctMedCellID" rowHeight="120" id="ODT-IZ-gPA" customClass="CTMedListViewCell" customModule="Med_Asst_1_0" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ctMedCellID" rowHeight="120" id="ODT-IZ-gPA" customClass="CTMedListViewCell" customModule="Care_Tracker" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="320" height="120"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ODT-IZ-gPA" id="wVN-50-o2y">
@@ -749,7 +749,7 @@
         <!--Medicine Info-->
         <scene sceneID="xnp-O4-XeK">
             <objects>
-                <viewController id="vjG-JY-gaH" customClass="CTMedDetailViewController" customModule="Med_Asst_1_0" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vjG-JY-gaH" customClass="CTMedDetailViewController" customModule="Care_Tracker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nhF-8O-DVv"/>
                         <viewControllerLayoutGuide type="bottom" id="oZh-EG-OkG"/>
@@ -909,7 +909,7 @@
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KeL-Lg-NEV">
                                         <rect key="frame" x="14" y="4" width="292" height="102"/>
-                                        <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -1020,7 +1020,7 @@
         <!--Pill Taker Pair View Controller-->
         <scene sceneID="MOc-We-ydb">
             <objects>
-                <viewController id="2hZ-yI-0u5" customClass="PillTakerPairViewController" customModule="Med_Asst_1_0" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="2hZ-yI-0u5" customClass="PillTakerPairViewController" customModule="Care_Tracker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="g5t-v3-Ndw"/>
                         <viewControllerLayoutGuide type="bottom" id="WCp-pm-zEU"/>
@@ -1078,7 +1078,7 @@
                                     <constraint firstAttribute="height" constant="160" id="zZV-SS-7qZ"/>
                                 </constraints>
                             </stackView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="This code will connect you to your care takers." translatesAutoresizingMaskIntoConstraints="NO" id="zuN-yq-hgp">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="This code will connect you to your care takers. Care takers can be your relatives, doctors, etc." translatesAutoresizingMaskIntoConstraints="NO" id="zuN-yq-hgp">
                                 <rect key="frame" x="46" y="110" width="228" height="84"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="84" id="7ka-pH-wjr"/>
@@ -1131,7 +1131,7 @@
         <!--Medicine List-->
         <scene sceneID="VGf-ep-rPh">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="sVd-dE-4w5" customClass="MedListViewController" customModule="Med_Asst_1_0" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="sVd-dE-4w5" customClass="MedListViewController" customModule="Care_Tracker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8gL-xE-iMT"/>
                         <viewControllerLayoutGuide type="bottom" id="fqq-Cg-JYK"/>
@@ -1144,7 +1144,7 @@
                                 <rect key="frame" x="0.0" y="64" width="320" height="414"/>
                                 <color key="backgroundColor" red="0.88877445459365845" green="0.93734985589981079" blue="0.94583636522293091" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="medCellID" rowHeight="120" id="1rN-sh-pcY" customClass="MedListViewCell" customModule="Med_Asst_1_0" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="medCellID" rowHeight="120" id="1rN-sh-pcY" customClass="MedListViewCell" customModule="Care_Tracker" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="320" height="120"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1rN-sh-pcY" id="d4F-db-NKh">
@@ -1260,32 +1260,31 @@
                                 </connections>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gub-jR-I2B">
-                                <rect key="frame" x="-4" y="473" width="166" height="100"/>
+                                <rect key="frame" x="-4" y="473" width="150" height="100"/>
                                 <state key="normal" image="Add Med Buttons">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="6MQ-rT-IdO" kind="show" identifier="toAddMedView" id="ahu-dS-IXD"/>
+                                    <action selector="addButtonTapped:" destination="sVd-dE-4w5" eventType="touchUpInside" id="l1x-D0-XIx"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Good Morning!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vjR-2J-AGJ">
-                                <rect key="frame" x="179" y="513" width="113" height="20"/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                <rect key="frame" x="161" y="510" width="131" height="26"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
                                 <color key="textColor" red="0.28097526340000001" green="0.28097526340000001" blue="0.28097526340000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.88877445459365845" green="0.93734985589981079" blue="0.94583636522293091" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="fqq-Cg-JYK" firstAttribute="top" secondItem="vjR-2J-AGJ" secondAttribute="bottom" constant="35" id="AYI-4u-Eo2"/>
+                            <constraint firstItem="fqq-Cg-JYK" firstAttribute="top" secondItem="vjR-2J-AGJ" secondAttribute="bottom" constant="32" id="AYI-4u-Eo2"/>
                             <constraint firstItem="yPr-0E-Gzx" firstAttribute="top" secondItem="8gL-xE-iMT" secondAttribute="bottom" id="Bbs-QP-wcF"/>
                             <constraint firstAttribute="trailingMargin" secondItem="vjR-2J-AGJ" secondAttribute="trailing" constant="12" id="BxJ-6b-doE"/>
                             <constraint firstItem="gub-jR-I2B" firstAttribute="leading" secondItem="NwL-ph-HYC" secondAttribute="leadingMargin" constant="-20" id="VQw-kU-tiq"/>
                             <constraint firstAttribute="trailing" secondItem="yPr-0E-Gzx" secondAttribute="trailing" id="Z0O-MX-m6R"/>
                             <constraint firstItem="yPr-0E-Gzx" firstAttribute="leading" secondItem="NwL-ph-HYC" secondAttribute="leading" id="eNa-9r-64O"/>
                             <constraint firstItem="fqq-Cg-JYK" firstAttribute="top" secondItem="yPr-0E-Gzx" secondAttribute="bottom" constant="90" id="nwh-aK-Mfe"/>
-                            <constraint firstItem="vjR-2J-AGJ" firstAttribute="top" secondItem="yPr-0E-Gzx" secondAttribute="bottom" constant="35" id="u7T-0F-KyN"/>
-                            <constraint firstItem="vjR-2J-AGJ" firstAttribute="leading" secondItem="gub-jR-I2B" secondAttribute="trailing" constant="17" id="vyB-Iv-dH5"/>
+                            <constraint firstItem="vjR-2J-AGJ" firstAttribute="top" secondItem="yPr-0E-Gzx" secondAttribute="bottom" constant="32" id="u7T-0F-KyN"/>
                             <constraint firstItem="fqq-Cg-JYK" firstAttribute="top" secondItem="gub-jR-I2B" secondAttribute="bottom" constant="-5" id="x6z-Fa-bl8"/>
                         </constraints>
                     </view>
@@ -1301,6 +1300,7 @@
                         <outlet property="greetingWordsLabel" destination="vjR-2J-AGJ" id="dUB-iO-fLN"/>
                         <outlet property="medTableView" destination="yPr-0E-Gzx" id="rzL-Bx-yYd"/>
                         <segue destination="lwJ-Tm-74m" kind="show" identifier="toMedDetailView" id="YAY-oU-5ea"/>
+                        <segue destination="6MQ-rT-IdO" kind="show" identifier="toAddMedView" id="Roo-Yw-1ZW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R29-Kt-8Lm" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1310,7 +1310,7 @@
         <!--Medicine Info-->
         <scene sceneID="zxu-3C-noD">
             <objects>
-                <viewController id="lwJ-Tm-74m" customClass="MedDetailViewController" customModule="Med_Asst_1_0" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="lwJ-Tm-74m" customClass="MedDetailViewController" customModule="Care_Tracker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cxK-j1-smr"/>
                         <viewControllerLayoutGuide type="bottom" id="hhH-mS-5Ur"/>
@@ -1414,7 +1414,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="53" id="Ji1-qw-299"/>
                                 </constraints>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1531,7 +1531,7 @@
         <!--Medicine Staus-->
         <scene sceneID="jda-4J-PLu">
             <objects>
-                <viewController id="kbB-Ba-mXZ" customClass="SeeScheduleViewController" customModule="Med_Asst_1_0" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="kbB-Ba-mXZ" customClass="SeeScheduleViewController" customModule="Care_Tracker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kj4-3H-x5g"/>
                         <viewControllerLayoutGuide type="bottom" id="ky0-0x-1dm"/>
@@ -1544,34 +1544,55 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UiN-bJ-Zqa">
-                                <rect key="frame" x="30" y="179.5" width="260" height="200"/>
+                                <rect key="frame" x="0.0" y="104" width="320" height="180"/>
                                 <color key="backgroundColor" red="0.97058823530000005" green="1" blue="1" alpha="0.51599957190000001" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="kAf-2j-40h"/>
+                                    <constraint firstAttribute="height" constant="180" id="kAf-2j-40h"/>
                                 </constraints>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" red="0.94745399746192893" green="0.1677353405267851" blue="0.1708191009161534" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="22"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Medicine status will be refreshed an hour after the &quot;taken&quot; button on the notification is pressed." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wOM-Th-LKa">
-                                <rect key="frame" x="30" y="79" width="260" height="50.5"/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today Missed Schedule(s)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pnt-3E-tBZ">
+                                <rect key="frame" x="30" y="84" width="157" height="16"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today Upcoming Schedule(s)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UAM-E7-fpf">
+                                <rect key="frame" x="30" y="304" width="176" height="16"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zE4-6m-VrQ">
+                                <rect key="frame" x="0.0" y="324" width="320" height="180"/>
+                                <color key="backgroundColor" red="0.97058823530000005" green="1" blue="1" alpha="0.51599957190000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="EN5-gv-gi2"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="HBg-K4-eim" firstAttribute="top" secondItem="WYE-o8-9HP" secondAttribute="top" id="03d-XC-xDc"/>
-                            <constraint firstItem="UiN-bJ-Zqa" firstAttribute="leading" secondItem="WYE-o8-9HP" secondAttribute="leadingMargin" constant="14" id="8dr-qI-bkv"/>
+                            <constraint firstItem="Pnt-3E-tBZ" firstAttribute="top" secondItem="kj4-3H-x5g" secondAttribute="bottom" constant="20" id="0F1-j8-7mX"/>
+                            <constraint firstItem="Pnt-3E-tBZ" firstAttribute="leading" secondItem="WYE-o8-9HP" secondAttribute="leadingMargin" constant="14" id="6yg-6x-gF5"/>
+                            <constraint firstAttribute="trailing" secondItem="UiN-bJ-Zqa" secondAttribute="trailing" id="AEC-pH-eez"/>
+                            <constraint firstItem="UiN-bJ-Zqa" firstAttribute="top" secondItem="Pnt-3E-tBZ" secondAttribute="bottom" constant="4" id="APb-10-A6W"/>
+                            <constraint firstItem="UAM-E7-fpf" firstAttribute="top" secondItem="UiN-bJ-Zqa" secondAttribute="bottom" constant="20" id="Bo4-B4-QvI"/>
                             <constraint firstAttribute="trailing" secondItem="HBg-K4-eim" secondAttribute="trailing" id="C9r-zE-c3s"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="UiN-bJ-Zqa" secondAttribute="trailing" constant="14" id="GuH-DU-y3a"/>
-                            <constraint firstItem="UiN-bJ-Zqa" firstAttribute="top" secondItem="wOM-Th-LKa" secondAttribute="bottom" constant="50" id="JLm-sY-JHr"/>
-                            <constraint firstItem="wOM-Th-LKa" firstAttribute="leading" secondItem="WYE-o8-9HP" secondAttribute="leadingMargin" constant="14" id="arB-Xc-wsz"/>
+                            <constraint firstItem="UiN-bJ-Zqa" firstAttribute="leading" secondItem="WYE-o8-9HP" secondAttribute="leading" id="Fw3-lw-62r"/>
+                            <constraint firstItem="zE4-6m-VrQ" firstAttribute="leading" secondItem="WYE-o8-9HP" secondAttribute="leading" id="UD2-gp-vXH"/>
                             <constraint firstItem="ky0-0x-1dm" firstAttribute="top" secondItem="HBg-K4-eim" secondAttribute="bottom" id="d60-bN-EkB"/>
-                            <constraint firstItem="wOM-Th-LKa" firstAttribute="top" secondItem="kj4-3H-x5g" secondAttribute="bottom" constant="15" id="dB4-eG-Xb0"/>
+                            <constraint firstItem="zE4-6m-VrQ" firstAttribute="top" secondItem="UAM-E7-fpf" secondAttribute="bottom" constant="4" id="iUW-aS-iJg"/>
+                            <constraint firstAttribute="trailing" secondItem="zE4-6m-VrQ" secondAttribute="trailing" id="kV1-Wb-vlS"/>
                             <constraint firstItem="HBg-K4-eim" firstAttribute="leading" secondItem="WYE-o8-9HP" secondAttribute="leading" id="oYa-EG-zSX"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="wOM-Th-LKa" secondAttribute="trailing" constant="14" id="v3e-P5-2aN"/>
+                            <constraint firstItem="UAM-E7-fpf" firstAttribute="leading" secondItem="WYE-o8-9HP" secondAttribute="leadingMargin" constant="14" id="riF-26-IeP"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Medicine Staus" id="u6x-RK-Lm7">
@@ -1584,6 +1605,7 @@
                     <connections>
                         <outlet property="HomeBackgroundView" destination="HBg-K4-eim" id="zTh-zr-Lcb"/>
                         <outlet property="scheduleTextField" destination="UiN-bJ-Zqa" id="bOD-8i-sj2"/>
+                        <outlet property="upComingTextField" destination="zE4-6m-VrQ" id="vlh-QK-JHz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5oZ-pd-fp2" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1633,7 +1655,7 @@
                 <viewControllerPlaceholder storyboardName="NewMedicine" id="6MQ-rT-IdO" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rBo-Ns-z8Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1756" y="991.75412293853083"/>
+            <point key="canvasLocation" x="1680" y="1245"/>
         </scene>
         <!--Settings-->
         <scene sceneID="zai-Sy-dFf">
@@ -1641,7 +1663,7 @@
                 <viewControllerPlaceholder storyboardName="Settings" id="sfb-bv-AMb" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bt0-kI-HYs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="884" y="2462"/>
+            <point key="canvasLocation" x="884" y="2063"/>
         </scene>
     </scenes>
     <resources>
