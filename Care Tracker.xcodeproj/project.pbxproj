@@ -44,8 +44,7 @@
 		17D1BB721F4439810048D86C /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D1BB711F4439810048D86C /* UIColorExtension.swift */; };
 		17D1BB741F4439980048D86C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D1BB731F4439980048D86C /* HomeViewController.swift */; };
 		17D1BB761F4439A30048D86C /* PillTakerPairViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D1BB751F4439A30048D86C /* PillTakerPairViewController.swift */; };
-		BE6A0957F90384D8599B32D6 /* Pods_Care_Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 085A42E2916B014CE13F27DD /* Pods_Care_Tracker.framework */; };
-		E32FC296B76101FE04EC974D /* Pods_Med_Asst_1_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E00EA08F5C60A339C2365916 /* Pods_Med_Asst_1_0.framework */; };
+		49041B91B24B9807B166A1D4 /* Pods_Care_Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 085A42E2916B014CE13F27DD /* Pods_Care_Tracker.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,11 +88,8 @@
 		17D1BB711F4439810048D86C /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = Extesions/UIColorExtension.swift; sourceTree = "<group>"; };
 		17D1BB731F4439980048D86C /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		17D1BB751F4439A30048D86C /* PillTakerPairViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PillTakerPairViewController.swift; sourceTree = "<group>"; };
-		1ACACA30FD03529A538D0FE2 /* Pods-Med-Asst-1.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Med-Asst-1.0.release.xcconfig"; path = "Pods/Target Support Files/Pods-Med-Asst-1.0/Pods-Med-Asst-1.0.release.xcconfig"; sourceTree = "<group>"; };
 		60D5A46844985D451E76E850 /* Pods-Care Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Care Tracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-Care Tracker/Pods-Care Tracker.release.xcconfig"; sourceTree = "<group>"; };
 		82F0A963DE81B998F93A450C /* Pods-Care Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Care Tracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Care Tracker/Pods-Care Tracker.debug.xcconfig"; sourceTree = "<group>"; };
-		83EB2FC0B37268A017DE010A /* Pods-Med-Asst-1.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Med-Asst-1.0.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Med-Asst-1.0/Pods-Med-Asst-1.0.debug.xcconfig"; sourceTree = "<group>"; };
-		E00EA08F5C60A339C2365916 /* Pods_Med_Asst_1_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Med_Asst_1_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +98,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				174D67A31F2EC22B00C816C0 /* MessageUI.framework in Frameworks */,
-				E32FC296B76101FE04EC974D /* Pods_Med_Asst_1_0.framework in Frameworks */,
-				BE6A0957F90384D8599B32D6 /* Pods_Care_Tracker.framework in Frameworks */,
+				49041B91B24B9807B166A1D4 /* Pods_Care_Tracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +251,6 @@
 		49641C13078B6740B0C3BA45 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				83EB2FC0B37268A017DE010A /* Pods-Med-Asst-1.0.debug.xcconfig */,
-				1ACACA30FD03529A538D0FE2 /* Pods-Med-Asst-1.0.release.xcconfig */,
 				82F0A963DE81B998F93A450C /* Pods-Care Tracker.debug.xcconfig */,
 				60D5A46844985D451E76E850 /* Pods-Care Tracker.release.xcconfig */,
 			);
@@ -268,7 +261,6 @@
 			isa = PBXGroup;
 			children = (
 				174D67A21F2EC22B00C816C0 /* MessageUI.framework */,
-				E00EA08F5C60A339C2365916 /* Pods_Med_Asst_1_0.framework */,
 				085A42E2916B014CE13F27DD /* Pods_Care_Tracker.framework */,
 			);
 			name = Frameworks;
