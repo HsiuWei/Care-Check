@@ -67,6 +67,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
             let center = UNUserNotificationCenter.current()
             center.requestAuthorization(options:[.badge, .alert, .sound]) { (granted, error) in
                //call back function after the user chose either allow or deny!!!
+                print("ggggrrrraaaannnnntttttt")
             }
           
             //set the delegate of the UNUserNotificationCenter as this view controller

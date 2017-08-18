@@ -34,7 +34,7 @@ class CTHomeVIewController: UIViewController {
         uiDesign()
         
         if UserDefaults.standard.value(forKey: UDkeys.tutorialMessageFlag.tutorialMessageFlagkey) as! Bool == true {
-            self.createAlert(title: "Welcome", message: "Click \"Add\" to monitor additional medicine users. \nClick switch button to view another user or to delete users. \n Click the eye button to monitor the medicine they're taking.")
+            self.createAlert(title: "Welcome!", message: "Make sure Wifi is turned on to keep monitoring. Click \"Add\" to monitor additional medicine users. \nClick switch button to view another user or to delete users. \n Click the eye button to monitor the medicine they're taking.")
             messageFlagInListVC = true
         }
 

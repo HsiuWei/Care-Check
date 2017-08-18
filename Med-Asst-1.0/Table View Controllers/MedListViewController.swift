@@ -39,7 +39,7 @@ class MedListViewController: UIViewController, UITableViewDelegate, UITableViewD
 
         //tutorial message
         if UserDefaults.standard.value(forKey: UDkeys.tutorialMessageFlag.tutorialMessageFlagkey) as! Bool == true {
-            self.createAlert(title: "Welcome!", message: "Click \"+Add\" to add new medicines. Click \"Settings\" to see or share your pair code and change your waking hours.")
+            self.createAlert(title: "Welcome!", message: "Make sure Wifi is turned on and click \"+Add\" to add new medicines. Click \"Settings\" to see or share your pair code and change your waking hours. Once medicines are created, FamCare will send you medicine notifications to remind you. Be sure to allow sending notifications for FamCare on your iphone.")
         }
     
         
