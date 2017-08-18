@@ -231,8 +231,8 @@
 		1753D0711F1EF7F00049BF0C /* Table View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				17D1BB5B1F4439370048D86C /* CTMedListViewController.swift */,
 				17D1BB5C1F4439370048D86C /* MedListViewController.swift */,
+				17D1BB5B1F4439370048D86C /* CTMedListViewController.swift */,
 				17D1BB5D1F4439370048D86C /* SwitchPatientListViewController.swift */,
 			);
 			name = "Table View Controllers";
@@ -301,11 +301,14 @@
 				TargetAttributes = {
 					1753D01D1F1978430049BF0C = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = F43VF8DYRY;
+						DevelopmentTeam = 3N5BMTANA9;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 0;
 							};
 						};
 					};
@@ -533,11 +536,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = F43VF8DYRY;
+				DEVELOPMENT_TEAM = 3N5BMTANA9;
 				INFOPLIST_FILE = "$(SRCROOT)/Med-Asst-1.0/Supportings/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hsiuwei.famcare;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hsiu-wei.famcare";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
@@ -550,11 +553,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = F43VF8DYRY;
+				DEVELOPMENT_TEAM = 3N5BMTANA9;
 				INFOPLIST_FILE = "$(SRCROOT)/Med-Asst-1.0/Supportings/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hsiuwei.famcare;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hsiu-wei.famcare";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;

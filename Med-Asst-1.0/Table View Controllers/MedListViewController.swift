@@ -56,16 +56,7 @@ class MedListViewController: UIViewController, UITableViewDelegate, UITableViewD
             
         })
         
-        
-        ////////////////////////////////////////
-        // schedule notifications for the day //
-        ////////////////////////////////////////
-        
-        
-        
-        
-
-
+     
     }
     
     func createAlert(title: String, message: String) {
