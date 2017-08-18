@@ -121,7 +121,7 @@ class MedDetailViewController: UIViewController, UIPickerViewDelegate, UIPickerV
                         print(temporaryReturnedError.localizedDescription)
                     }
                     else {
-                        print("successfully putting data")
+                        //successfully putting data
                     }
                 })
 

@@ -168,7 +168,7 @@ class SeeScheduleViewController: UIViewController {
         }
             
         else {
-            print("the index path is nil")
+            //"the index path is nil"
         }
         
     }

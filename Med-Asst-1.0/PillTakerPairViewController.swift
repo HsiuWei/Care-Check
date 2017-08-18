@@ -112,7 +112,7 @@ class PillTakerPairViewController: UIViewController {
         }
         else {
             
-            print("error happened for sending message")
+            //error happened for sending message
         
         }
         

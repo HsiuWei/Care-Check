@@ -43,7 +43,7 @@ class CTHomeVIewController: UIViewController {
             switchNum = historySwitchNum
             
             Medicine.careTakerUuidArray = UserDefaults.standard.stringArray(forKey: UDkeys.careTakerUuid.careTakerUuidkey)!
-            print("switchNum = \(switchNum)")
+            
             let thisUser = User(uuid: Medicine.careTakerUuidArray[switchNum])
             //make this user a singleton user (current)
             User.setSingleton(thisUser)

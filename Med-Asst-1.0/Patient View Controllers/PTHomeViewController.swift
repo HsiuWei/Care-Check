@@ -57,7 +57,7 @@ class PTHomeViewController: UIViewController {
         }
         else {
             
-            print("error happened for sending message")
+            //error happened for sending message
             
         }
 

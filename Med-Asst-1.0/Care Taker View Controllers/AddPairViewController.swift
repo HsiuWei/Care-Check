@@ -44,9 +44,7 @@ class AddPairViewController: UIViewController {
     Database.database().reference().child("Users").child(uuidEntered!).observeSingleEvent(of: .value, with: { (returnedSnapshot) in
             
             if let _ = returnedSnapshot.value as? NSDictionary as? [String:[String: Any]] {
-                
-                print("yup you're good")
-                
+                                
                 Medicine.careTakerUuidArray.append(self.uuidEntered!)
                 
                 //set the value for the uuidCT in enum which has the key of UDkeys.uuidCT.keyCT

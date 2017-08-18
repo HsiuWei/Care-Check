@@ -29,7 +29,7 @@ class SwitchPatientListViewController: UITableViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        print("h")
+        
         if segue.identifier == "unwinfFromSwitchCellToHome" {
             let cTHomeVC = segue.destination as! CTHomeVIewController
             cTHomeVC.switchNum = tableView.indexPathForSelectedRow!.row

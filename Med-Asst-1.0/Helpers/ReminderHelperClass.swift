@@ -98,7 +98,7 @@ class ReminderHelperClass {
         let targetedDecimalPlaces:Double = round(timeIntervalDouble.truncatingRemainder(dividingBy:1.0) * powerOfTen) / powerOfTen //0.75
         let minuteTimeInterval = Int(60 * targetedDecimalPlaces) //45
         let timeInterval: Int = Int(timeIntervalDouble - targetedDecimalPlaces)//3
-        print("timeInterval = \(timeInterval)")
+        
         
         //format the input date into a NSCalender
         var calendar = Calendar.current

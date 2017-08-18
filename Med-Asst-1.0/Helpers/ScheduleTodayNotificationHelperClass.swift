@@ -136,7 +136,7 @@ class ScheduleTodayNotificationHelperClass {
         
         
         var localTimeZoneAbbreviation: String { return TimeZone.current.abbreviation() ?? "" }
-        print("localTimeZoneAbbreviation = \(localTimeZoneAbbreviation)")
+        
         calendar.timeZone = TimeZone(abbreviation: localTimeZoneAbbreviation)!
         
         calendar.timeZone = TimeZone.current

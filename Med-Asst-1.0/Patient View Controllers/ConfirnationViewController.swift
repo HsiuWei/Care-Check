@@ -69,7 +69,7 @@ class ConfirmationViewController: UIViewController {
             }
                 
             else {
-                print("Failure")
+                //"Failure"
             }
         })
 

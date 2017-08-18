@@ -45,7 +45,7 @@ class SetWakingViewController: UIViewController, UIPickerViewDelegate, UIPickerV
         wakeNum = UserDefaults.standard.value(forKey: UDkeys.userWakeTime.userWakeTimekey) as! Int
         sleepNum = UserDefaults.standard.value(forKey: UDkeys.userSleepTime.userSleepTimkey) as! Int
         
-        print(" sleepNum = \( sleepNum)")
+       
         
         wakeTimeLabel.text = String(wakeNum)
         sleepTimeLabel.text = String(sleepNum)

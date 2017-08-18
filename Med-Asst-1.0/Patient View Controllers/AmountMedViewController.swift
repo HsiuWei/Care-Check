@@ -58,7 +58,7 @@ class AmountMedViewController: UIViewController, UIPickerViewDelegate, UIPickerV
         if pickerView == pillAmountPicker {
             
             pillAmountInt = Int(options[row])!
-            //print("pillAmountIn = \(pillAmountInt)")
+           
             
         }
             

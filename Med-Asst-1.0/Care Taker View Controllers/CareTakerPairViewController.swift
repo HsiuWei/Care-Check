@@ -52,8 +52,7 @@ class CareTakerPairViewController: UIViewController {
         
             if let _ = returnedSnapshot.value as? NSDictionary as? [String:[String: Any]] {
                 
-                print("yup you're good")
-                
+                               
                 
                 Medicine.careTakerUuidArray.append(self.uuidEntered!)
                 
