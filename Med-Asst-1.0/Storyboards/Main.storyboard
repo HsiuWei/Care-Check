@@ -103,9 +103,9 @@
                         <outlet property="HomeBackgroundView" destination="iwa-sS-5vV" id="tTS-UI-9Zc"/>
                         <outlet property="careTakerButton" destination="Uk5-Gc-o1r" id="cbB-Kn-jRY"/>
                         <outlet property="medicineUserButton" destination="H1v-Sm-roz" id="Re2-Bu-wey"/>
-                        <segue destination="iEd-C8-xxs" kind="show" identifier="toPTHomeView" id="lHv-0R-rKt"/>
                         <segue destination="2hZ-yI-0u5" kind="presentation" identifier="toPillTakerPairView" id="egr-8r-ij0"/>
-                        <segue destination="JPT-GU-cGs" kind="show" identifier="toCareTakerView" id="2er-je-Cij"/>
+                        <segue destination="8a5-Wh-Vy8" kind="show" identifier="toPTHomeView" id="DQ5-RH-dnR"/>
+                        <segue destination="Drf-L5-Jnt" kind="show" identifier="toCareTakerView" id="gqR-tH-qpZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -1128,6 +1128,90 @@
             </objects>
             <point key="canvasLocation" x="941.25" y="154.22535211267606"/>
         </scene>
+        <!--Agreement View Controller-->
+        <scene sceneID="asq-ev-3LY">
+            <objects>
+                <viewController id="8a5-Wh-Vy8" customClass="PTAgreementViewController" customModule="Care_Tracker" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DuJ-kj-TIg"/>
+                        <viewControllerLayoutGuide type="bottom" id="DK9-XM-Alp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QHO-FK-eit">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Home Page Background" translatesAutoresizingMaskIntoConstraints="NO" id="PRu-wh-js8">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I4e-eP-jpo">
+                                <rect key="frame" x="46" y="468" width="228" height="70"/>
+                                <color key="backgroundColor" red="0.59775525330000001" green="0.90470713380000001" blue="0.79857069250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="h2C-xg-ESz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="I Agree">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="continueButtonTapped:" destination="2hZ-yI-0u5" eventType="touchUpInside" id="Ftw-SH-ytg"/>
+                                    <segue destination="iEd-C8-xxs" kind="show" identifier="toPtNavigationViewController" id="Eh9-z0-xMr"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4xS-5G-hh5">
+                                <rect key="frame" x="46" y="153" width="228" height="246"/>
+                                <color key="backgroundColor" red="0.97058823530000005" green="1" blue="1" alpha="0.51599957190000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="246" id="sH9-gg-QNW"/>
+                                </constraints>
+                                <string key="text">This application, FamCare, sends notificaitons to users as medicine reminders that follow the information users enter. FamCare is not responsible for any incorrect medicine use instructions. Please follow professional medical advices from qualified doctors. FamCare is not a substitution of any medicine prescriptions.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Agreement" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JjV-os-Kkb">
+                                <rect key="frame" x="117.5" y="50" width="85" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pleae read the following terms carefully before using FamCare." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hTa-hW-8Ua">
+                                <rect key="frame" x="46" y="81" width="228" height="57"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="TZx-Td-vNm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.25465744733810425" green="0.2627948522567749" blue="0.26280003786087036" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="4xS-5G-hh5" secondAttribute="trailing" constant="30" id="2gg-hU-5Ou"/>
+                            <constraint firstItem="4xS-5G-hh5" firstAttribute="top" secondItem="hTa-hW-8Ua" secondAttribute="bottom" constant="15" id="DDf-ay-Yse"/>
+                            <constraint firstItem="hTa-hW-8Ua" firstAttribute="leading" secondItem="QHO-FK-eit" secondAttribute="leadingMargin" constant="30" id="Dmc-rW-3sy"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hTa-hW-8Ua" secondAttribute="trailing" constant="30" id="FMX-Zz-s45"/>
+                            <constraint firstItem="DK9-XM-Alp" firstAttribute="top" secondItem="PRu-wh-js8" secondAttribute="bottom" id="LE6-v9-O2t"/>
+                            <constraint firstItem="DK9-XM-Alp" firstAttribute="top" secondItem="I4e-eP-jpo" secondAttribute="bottom" constant="30" id="MWr-fa-bwF"/>
+                            <constraint firstItem="JjV-os-Kkb" firstAttribute="top" secondItem="DuJ-kj-TIg" secondAttribute="bottom" constant="30" id="NN9-4F-ujY"/>
+                            <constraint firstAttribute="trailing" secondItem="PRu-wh-js8" secondAttribute="trailing" id="RrK-8R-T1a"/>
+                            <constraint firstItem="PRu-wh-js8" firstAttribute="leading" secondItem="QHO-FK-eit" secondAttribute="leading" id="ZW6-Z7-y1h"/>
+                            <constraint firstItem="4xS-5G-hh5" firstAttribute="leading" secondItem="QHO-FK-eit" secondAttribute="leadingMargin" constant="30" id="ZbS-0o-bSQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="I4e-eP-jpo" secondAttribute="trailing" constant="30" id="gSh-eq-AlC"/>
+                            <constraint firstItem="hTa-hW-8Ua" firstAttribute="top" secondItem="JjV-os-Kkb" secondAttribute="bottom" constant="10" id="i4R-8M-6lh"/>
+                            <constraint firstItem="PRu-wh-js8" firstAttribute="top" secondItem="QHO-FK-eit" secondAttribute="top" id="yg4-c4-icU"/>
+                            <constraint firstItem="JjV-os-Kkb" firstAttribute="centerX" secondItem="QHO-FK-eit" secondAttribute="centerX" id="ymh-Ry-wkt"/>
+                            <constraint firstItem="I4e-eP-jpo" firstAttribute="leading" secondItem="QHO-FK-eit" secondAttribute="leadingMargin" constant="30" id="zyV-Ga-j27"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="HomeBackgroundView" destination="PRu-wh-js8" id="xjR-PR-guZ"/>
+                        <outlet property="agreeButtonView" destination="I4e-eP-jpo" id="55Q-9F-ZOC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j6e-KH-hQY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-761" y="1371"/>
+        </scene>
         <!--Medicine List-->
         <scene sceneID="VGf-ep-rPh">
             <objects>
@@ -1664,6 +1748,90 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bt0-kI-HYs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="884" y="2063"/>
+        </scene>
+        <!--Agreement View Controller-->
+        <scene sceneID="uWY-Ye-PFM">
+            <objects>
+                <viewController id="Drf-L5-Jnt" customClass="CTAgreementViewController" customModule="Care_Tracker" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yrr-41-Ck1"/>
+                        <viewControllerLayoutGuide type="bottom" id="xDq-vQ-QTY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NW6-sf-dqZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.30000001192092896" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Home Page Background" translatesAutoresizingMaskIntoConstraints="NO" id="VlA-8N-zad">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JA0-Gu-pQl">
+                                <rect key="frame" x="46" y="468" width="228" height="70"/>
+                                <color key="backgroundColor" red="0.40779560804367065" green="0.40787053108215332" blue="0.40779092907905579" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="hMJ-0m-Bt7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="I Agree">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="continueButtonTapped:" destination="2hZ-yI-0u5" eventType="touchUpInside" id="2cu-bm-HdJ"/>
+                                    <segue destination="JPT-GU-cGs" kind="show" identifier="toEnterUuidCTView" id="knl-FU-VbL"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sz6-CB-dXx">
+                                <rect key="frame" x="46" y="153" width="228" height="269"/>
+                                <color key="backgroundColor" red="0.97058823530000005" green="1" blue="1" alpha="0.51599957190000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="269" id="Mzq-11-J4c"/>
+                                </constraints>
+                                <string key="text">This application, FamCare, sends notificaitons to medicne users as medicine reminders that follow the information medicine users enter. FamCare is not responsible for any incorrect medicine use instructions. Please follow professional medical advices from qualified doctors. FamCare is not a substitution of any medicine prescriptions.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Agreement" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sKi-vt-yVw">
+                                <rect key="frame" x="117.5" y="50" width="85" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pleae read the following terms carefully before using FamCare." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hXV-qb-ml4">
+                                <rect key="frame" x="46" y="81" width="228" height="57"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="x9a-AZ-2by"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.25465744730000001" green="0.26279485229999999" blue="0.26280003790000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="sKi-vt-yVw" firstAttribute="top" secondItem="yrr-41-Ck1" secondAttribute="bottom" constant="30" id="0PU-9B-jOM"/>
+                            <constraint firstItem="xDq-vQ-QTY" firstAttribute="top" secondItem="VlA-8N-zad" secondAttribute="bottom" id="EUQ-Zm-xrU"/>
+                            <constraint firstItem="hXV-qb-ml4" firstAttribute="top" secondItem="sKi-vt-yVw" secondAttribute="bottom" constant="10" id="I1H-3F-V3P"/>
+                            <constraint firstItem="hXV-qb-ml4" firstAttribute="leading" secondItem="NW6-sf-dqZ" secondAttribute="leadingMargin" constant="30" id="KWC-mi-T7e"/>
+                            <constraint firstAttribute="trailing" secondItem="VlA-8N-zad" secondAttribute="trailing" id="NnK-Ge-Z9n"/>
+                            <constraint firstItem="xDq-vQ-QTY" firstAttribute="top" secondItem="JA0-Gu-pQl" secondAttribute="bottom" constant="30" id="P3W-Xd-9jI"/>
+                            <constraint firstItem="JA0-Gu-pQl" firstAttribute="leading" secondItem="NW6-sf-dqZ" secondAttribute="leadingMargin" constant="30" id="QI5-Uv-Yn7"/>
+                            <constraint firstItem="Sz6-CB-dXx" firstAttribute="leading" secondItem="NW6-sf-dqZ" secondAttribute="leadingMargin" constant="30" id="V5g-AK-qmj"/>
+                            <constraint firstItem="sKi-vt-yVw" firstAttribute="centerX" secondItem="NW6-sf-dqZ" secondAttribute="centerX" id="WOU-wQ-x04"/>
+                            <constraint firstItem="Sz6-CB-dXx" firstAttribute="top" secondItem="hXV-qb-ml4" secondAttribute="bottom" constant="15" id="Wsy-5N-B0G"/>
+                            <constraint firstItem="VlA-8N-zad" firstAttribute="top" secondItem="NW6-sf-dqZ" secondAttribute="top" id="bId-on-6YM"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="JA0-Gu-pQl" secondAttribute="trailing" constant="30" id="hMm-E2-DBq"/>
+                            <constraint firstItem="VlA-8N-zad" firstAttribute="leading" secondItem="NW6-sf-dqZ" secondAttribute="leading" id="s1J-Zd-2w2"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hXV-qb-ml4" secondAttribute="trailing" constant="30" id="uxu-6O-eOV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Sz6-CB-dXx" secondAttribute="trailing" constant="30" id="y9d-rB-jZG"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="HomeBackgroundView" destination="VlA-8N-zad" id="mUx-Ze-l6e"/>
+                        <outlet property="agreeButtonView" destination="JA0-Gu-pQl" id="f0I-IO-QK0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fmC-aG-8rx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="80.625" y="-673.94366197183103"/>
         </scene>
     </scenes>
     <resources>
