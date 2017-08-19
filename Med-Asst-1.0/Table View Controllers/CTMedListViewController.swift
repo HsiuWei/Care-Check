@@ -32,7 +32,7 @@ class CTMedListViewController: UITableViewController {
         self.navigationItem.title = "\(catchPatientName!)'s Medicine"
         
         if messageFlag != nil {
-            self.createAlert(title: "", message: "A red exclamation means today's medicine has been missed, a green tik means the medicine was taken. Click on a medicine for more information")
+            self.createAlert(title: "", message: "A red exclamation means today's medicine has been missed, a green tick means the medicine was taken. Click on a medicine for more information")
             messageFlag = nil
         }
         
