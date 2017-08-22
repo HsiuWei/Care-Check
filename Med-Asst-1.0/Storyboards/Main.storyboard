@@ -1158,7 +1158,7 @@
                                     <segue destination="iEd-C8-xxs" kind="show" identifier="toPtNavigationViewController" id="Eh9-z0-xMr"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4xS-5G-hh5">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4xS-5G-hh5">
                                 <rect key="frame" x="46" y="153" width="228" height="246"/>
                                 <color key="backgroundColor" red="0.97058823530000005" green="1" blue="1" alpha="0.51599957190000001" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -1779,7 +1779,7 @@
                                     <segue destination="JPT-GU-cGs" kind="show" identifier="toEnterUuidCTView" id="knl-FU-VbL"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sz6-CB-dXx">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sz6-CB-dXx">
                                 <rect key="frame" x="46" y="153" width="228" height="269"/>
                                 <color key="backgroundColor" red="0.97058823530000005" green="1" blue="1" alpha="0.51599957190000001" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
